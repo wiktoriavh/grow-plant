@@ -3,3 +3,6 @@
 dist/
 /venv/
 __pycache__/
+
+### Weather API ###
+.cache.sqlite
