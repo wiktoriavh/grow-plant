@@ -32,7 +32,7 @@ def evaluate_clouds(cover):
 
 def evaluate_soil_moisture(moisture):
     if moisture < 0.2:
-        return -5
+        return -1
     elif 0.2 <= moisture < 0.4:
         return 1
     elif 0.4 <= moisture < 0.6:
